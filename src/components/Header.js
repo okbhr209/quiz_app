@@ -12,7 +12,7 @@ import './header.css'
 function Header(args) {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggle = () => setIsOpen(!isOpen);
+  // const toggle = () => setIsOpen(!isOpen);
 
   return (
     <div className='header'>
